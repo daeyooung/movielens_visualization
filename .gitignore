@@ -1,0 +1,11 @@
+# 저장소에 올릴 때 파일명을 .gitignore 로 바꿀 것
+# MovieLens 데이터는 재배포 금지 → 저장소에 올리지 않음
+data/
+*.dat
+ml-1m.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
